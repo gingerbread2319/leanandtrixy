@@ -1,0 +1,390 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/component.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/animate.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />-->
+<script src="js/modernizr.js"></script>
+<script src="js/respond.js"></script>
+<script src="js/photostack.js"></script>
+<!--<script src="js/jquery.js"></script>-->
+<script src="js/animation.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js"></script>
+<script>
+	
+</script>
+</head>
+<body>
+	<div class="nav-container">
+	<nav class="topnav" id="myTopnav">
+	<ul class="sub-menu">
+		<li><a href="#home" onclick="homeScroll()">L+T</a></li>
+		<li><a href="#moments" onclick="momentScroll()">Our Moments</a></li>
+		<li><a href="#story" onclick="storyScroll()">Our Story</a></li>
+		<li><a href="#message" onclick="messageScroll()">To my one and only..</a></li>
+		<li class="icon">
+			<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+		</li>
+	</ul>
+	</nav>
+	</div>
+	
+	<div class="container-fluid" id="home"> 
+		<div class="row">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<center>
+			<div class="home-img">
+				<h1>Lean + Trixy</h1> 
+				<!--<div class="since-img"></div>-->
+				<div class="since">
+					<p class="sinceText">03.19.2016</p>
+				</div>
+				<br>
+				<br>
+			</div>
+			<br>
+			<br>
+			<p class="instructions-home">Click heart to see below.</p>
+			<a href="#moments" onclick="momentScroll()">
+				<svg class="heart" viewBox="0 0 32 29.6">
+					<path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+						c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+				</svg> 
+			</a>
+			</center>
+		</div>
+		<!--<div class="row" id="gallery">-->
+			<!--Added gallery code-->
+		<!--</div>-->
+	</div>
+	
+	<div class="container-fluid" id="gallery-wrapper">
+		<div class="row">
+			<div id="moments">
+			<br>
+			<br>
+			<br>
+			<br>
+				<h2 class="momentsHeader">Our Moments</h2>
+				<p class="instructions" style="margin-bottom:20px;">Click bullet 2 times.</p>
+				<br>
+				<br>
+				<br>
+				<section id="photostack-1" class="photostack photostack-start">
+				<div>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/1.jpg" alt="img01"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p align="justify">Ito yung pic namin na tinreat ko siya nung na promote ako. Takaw namin!! nag ramen na kami, nag rice meals pa kami! pero ok lang, ganyan ko siya kamahal, kahit tumaba pa siya na kasing laki ng balyena mahal na mahal ko parin siya.</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/2.jpg" alt="img02"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Ito naman, nakaupo lang kami nito sa mall, nag kita kami for dinner, gusto ko lang siya makasama kahit isang meal lang. ako yung nag insist na picturan yung kamay namin na magkahawak. ang clingy ko no? e wala e, mahal na mahal ko tong babaeng to. at miss na miss ko na siya nung mga panahon na to. miss ko na hawakan yung makinis at malambot niyang kamay, at miss ko na marinig yung boses niya.</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/3.jpg" alt="img03"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Isa to sa mga pic ng normal dinner namin, sa jollibee, market-market. hinatid ko sia pauwi nito. grabe, madami kaming selfies nung nandun kami, nag fe-feeling pogi ako nun, tapos siya diring diri kuno. pero deep inside kinikilig pag nag papapogi ako. kc tinatry kong ulitin yung magandang angulo nung selfie ko sa apartment. :P tawa siya ng tawa nun kc di ko na magaya at nag mumuka na kong bading pag ginagaya ko. pero ok lang, panalo naman ako sa tuwing ngumingiti siya, nakakawala ng pagod sa mag hapon na trabaho. I love you baby!! :*</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/4.jpg" alt="img01"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Ito yung isa sa pinaka masayang date namin. yung nag Enchanted Kingdom kami. isa to sa mga childhood dreams nia, at pareho naming first time pumunta dito. sobrang saya ko sa bawat ngiti niya nung oras na yun. daig ko pa yung nanalo sa lotto. parang bumalik siya sa pagiging maliit na bata kung kumilos. kitang kita ko sa mata niya kung gaano siya di makapaniwala na nandoon na siya sa lugar na dating pinapangarap niya lang. marami pa siyang mga pangarap na hindi pa natutupad. at tutulungan ko siyang tuparin lahat yun ng paunti-unti. lahat gagawin ko para matupad ang lahat ng yun.</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/5.jpg" alt="img04"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Recently lang yung pic na to. H&PS party namin at may color coding yung damit, black for taken and red for single. nalungkot sia nung nakita niya ako na naka-red. yamot na yamot sakin kc nag black daw sia. HAHAHAHA! sinurprise ko sia sa party at nakablack ako. hinding hindi ko kayang ikahiya na girlfriend kita no! i love you so much!! :* :* :*</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/6.jpg" alt="img06"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Kasama to nung picture #3. wala lang, ang cute cute nia dito e. tuwing nakasandal siya sa balikat ko i always feel relieved, lahat ng pagod ko nawawala. nakakagaan ng pakiramdam. kaya gustong gusto kong sumasandal sia e. HAHAHAHA! i love you mahal!! :*</p>
+							</div>
+						</figcaption>
+					</figure>
+					<!--<figure>
+						<a href="#" class="photostack-img"><img src="img/7.jpg" alt="img07"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p></p>
+							</div>
+						</figcaption>
+					</figure>0-->
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/8.jpg" alt="img08"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>OUR FIRST VALENTINE DATE AS COUPLE!!!! grabe. valentines day. sinurprise ko sia nito sa office. medyo nag fail ako kc nakahalata sia hahaha! galing nia e, kabadong kabado ako nung pumasok sia sa idx, tapos nung inabot ko sa kanya yung flowers at gift ko, nakita kong namumugto na yung mga mata nia. first time ko yun ginawa sa buong buhay ko. para sa kanya gagawin ko lahat mapakilig at sumaya lang sia. MAHAL NA MAHAL KITA BABY!!. I loved, love and will love you.. :* :* :*</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/9.jpg" alt="img09"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Hindi pa kami nito, wala lang, ang cute niya dito. wag ka na mag hanap dyan ng iba, nandito naman yung puso ko, na nag mamahal ng todo sayo. :P</p>
+							</div>
+						</figcaption>
+					</figure>
+					<!--<figure>
+						<a href="#" class="photostack-img"><img src="img/10.jpg" alt="img10"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p></p>
+							</div>
+						</figcaption>
+					</figure>-->
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/11.jpg" alt="img11"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>ito naman e kuha sa Venice Piazza. weekends to, nag date kami, pero dumaan ako sa office para mag timesheet. naaalala ko pa nun, nag lakad lang kami, paakyat palang sa mckinley hingal na hingal na kami. pero na enjoy naman namin, naaasar siya sakin kasi sumisigaw ako sa daan ng "I LOVE YOU TRIXY!!" pero nung kalagitnaan gumaya na rin sia. tapos parang nag boballroom kami sa daan kasi pinapaikot ko sia hahaha! ang sarap niya talaga kasama.</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/12.jpg" alt="img12"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Ito yung ginagaya kong selfie ko sa apartment sa picture #3. pogi ko no? ganda ng angulo. aminin mo na baby! HAHAHAHAHAHAHAHA! :P </p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/13.jpg" alt="img13"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Ganda no? GIRLFRIEND KO YAN. mahal na mahal ko yang babaeng yan. Siya na yata yung pinaka mabait at napakaresponsable sa buhay na taong nakilala ko. at sobrang sarap niyang mag LUTO! grabe huling huli niya yung kiliti ng tiyan ko! AHAHAHA! Kung sino man ang mag kakamaling saktan siya, hinding hindi ko aatrasan!!! handa kong siyang ipaglaban kahit kanino! ganyan ko sia kamahal. handa kong gawin at isakripisyo ang lahat maging masaya lang siya!</p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="#" class="photostack-img"><img src="img/14.jpg" alt="img14"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p>Ito yung wallpaper ko sa Smartphone ko. ginawan ko sia ng vector art. hugis Heart. kc siya lang ang laman ng puso ko. siya lang at wala ng iba.. :* :* :*</p>
+							</div>
+						</figcaption>
+					</figure>
+					<!--<figure>
+						<a href="#" class="photostack-img"><img src="img/15.jpg" alt="img15"/></a>
+						<figcaption>
+							<div class="photostack-back">
+								<p></p>
+							</div>
+						</figcaption>
+					</figure>-->
+				</div>
+			</section>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid" id="story-wrapper">
+		<div class="row">
+			<div id="story">
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2 class="storyHeader">Our Story</h2>
+				<p class="instructions" style="margin-bottom:20px;">Hover on the Hearts.</p>
+				<svg width="777" height="500">
+					<rect fill="#ffffff" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="svg_22" x="0" y="173" width="775" height="13" style="color: rgb(255, 255, 255);" class="selected"/>
+					<path fill="#f20056" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" marker-start="" marker-mid="" marker-end="" id="svg_1" d="M106.12837813529057,159.6654473867394 C124.71242699154804,106.35055312698447 197.52533972344196,159.6654473867394 106.12837813529057,228.21316857785274 C14.731416547139345,159.6654473867394 87.54432927903318,106.35055312698447 106.12837813529057,159.6654473867394 z" style="color: rgb(242, 0, 86);" class="hoverheart" fill-opacity="1" opacity="1"/>
+					<path fill="#e98a8a" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" marker-start="" marker-mid="" marker-end="" d="M291.3915211978821,158.6128179159142 C309.9755700541396,105.29792365615927 382.7884827860335,158.6128179159142 291.3915211978821,227.16053910702755 C199.9945596097309,158.6128179159142 272.8074723416247,105.29792365615927 291.3915211978821,158.6128179159142 z" style="color: rgb(242, 0, 86);" class="hoverheart" fill-opacity="1" opacity="1" id="svg_2"/>
+					<path fill="#a5a5a5" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" marker-start="" marker-mid="" marker-end="" d="M485.0757238689332,158.61280837917104 C503.6597727251906,105.2979141194161 576.4726854570845,158.61280837917104 485.0757238689332,227.16052957028438 C393.67876228078194,158.61280837917104 466.4916750126757,105.2979141194161 485.0757238689332,158.61280837917104 z" style="color: rgb(242, 0, 86);" class="hoverheart" fill-opacity="1" opacity="1" id="svg_3"/>
+					<path fill="#a5a5a5" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" marker-start="" marker-mid="" marker-end="" d="M659.8125612560182,158.6128064718224 C678.3966101122755,105.29791221206747 751.2095228441694,158.6128064718224 659.8125612560182,227.16052766293575 C568.4155996678669,158.6128064718224 641.2285123997607,105.29791221206747 659.8125612560182,158.6128064718224 z" style="color: rgb(242, 0, 86);" class="hoverheart" fill-opacity="1" opacity="1" id="svg_4"/>
+					
+					<text x="10" y="20" id="Hidden_Text1">
+						<tspan x="388.5" y="45" text-anchor="middle" class="instructions" style="fill: #FFFFFF;">Our First ever Anniversary!!! ❤ ❤ ❤</tspan>
+						<set attributeName="visibility" to="visible" begin="svg_1.mouseover" end="svg_1.mouseout"/>
+					</text>
+					<text x="10" y="20" id="Hidden_Text2">
+						<tspan x="388.5" y="45" text-anchor="middle" class="instructions" style="fill: #FFFFFF;">Still Crafting......</tspan>
+						<set attributeName="visibility" to="visible" begin="svg_2.mouseover" end="svg_2.mouseout"/>
+					</text>
+					<text x="10" y="20" id="Hidden_Text3">
+						<tspan x="388.5" y="45" text-anchor="middle" class="instructions" style="fill: #FFFFFF;">We will get here soon.... ^_^</tspan>
+						<set attributeName="visibility" to="visible" begin="svg_3.mouseover" end="svg_3.mouseout"/>
+					</text>	
+					<text x="10" y="20" id="Hidden_Text4">
+						<tspan x="388.5" y="45" text-anchor="middle" class="instructions" style="fill: #FFFFFF;">We will get here soon.. until forever.. ❤ ❤ ❤</tspan>
+						<set attributeName="visibility" to="visible" begin="svg_4.mouseover" end="svg_4.mouseout"/>
+					</text>
+				</svg>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid" id="message-wrapper">
+		<div class="row">
+			<div id="message">
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2 class="messageHeader">To my one and only..</h2>
+				<br>
+				<br>
+				<br>
+				<img src="img/Collage.png" style="width: 700px;"></img>
+				<br>
+				<a class="btn" data-popup-open="popup-1" href="#"><h1 class="trixy">Trixy</h1></a>
+				<!--<p class="sheis">
+					She is <span class="typer" id="description" data-delay="100" data-delim="," data-words="Beautiful,Beautiful at heart"></span>
+					<span class="cursor" data-cursorDisplay="_" data-owner="description"></span>				
+				</p>-->
+				<p id="sheis">She<span id="description"></span><p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/photostack.js"></script>
+	<script>
+		// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+		new Photostack( document.getElementById( 'photostack-1' ), {
+			callback : function( item ) {
+				//console.log(item)
+			}
+		} );
+		new Photostack( document.getElementById( 'photostack-2' ), {
+			callback : function( item ) {
+					//console.log(item)
+			}
+		} );
+		new Photostack( document.getElementById( 'photostack-3' ), {
+			callback : function( item ) {
+					//console.log(item)
+			}
+		} );
+	</script>
+	<script>
+					$('#description').typeIt({
+						 speed: 50,
+						 autoStart: false
+					})
+					.tiType('<span id="sheis"> is</span> Beautiful')
+					.tiPause(2000)
+					.tiType(' also at heart! ❤')
+					.tiPause(2000)
+					.tiDelete()
+					.tiPause(1000)
+					.tiType('<span id="sheis"> is</span> Irresistable.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> can melt my heart whenever she</span> Smiles.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> is</span> God-Fearing.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> is</span> bubbly.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> is</span> cute.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> is</span> responsible.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> can</span> cook.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType(' likes it.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> can</span> make my stomach happy!! :P')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis"> is</span> mine.')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis">\'s the only one </span>i love. ❤')
+					.tiPause(1000)
+					.tiDelete()
+					.tiType('<span id="sheis">\'s my</span> baby')
+					.tiPause(2000)
+					.tiType(' and always be.... ❤')
+					.tiPause(2000);
+	</script>
+	<script>
+		$(function() {
+    //----- OPEN
+			$('[data-popup-open]').on('click', function(e)  {
+				var targeted_popup_class = jQuery(this).attr('data-popup-open');
+				$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+		 
+				e.preventDefault();
+			});
+		 
+			//----- CLOSE
+			$('[data-popup-close]').on('click', function(e)  {
+				var targeted_popup_class = jQuery(this).attr('data-popup-close');
+				$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+		 
+				e.preventDefault();
+			});
+		});
+	</script>
+				<div class="popup" data-popup="popup-1">
+				<div class="popup-inner">
+					<p class="message">
+						To my one and only baby, Trixy Beldad Crueldad, Happy First Anniversary!!!!! :* :* :* 1 Year na tayo!! halos nasabi ko na ata sayo ng gusto kong sabihin,
+						Pero isa lang ang hinding hindi ako magsasawang sabihin sayo ng paulit ulit: "I LOVE YOU." and i always be. Maraming salamat sa lahat pagmamahal at tiwala
+						na ibinigay mo sa akin. i know na hindi naging maganda ang simula natin but i will make sure that our love story will be worthwhile. Maraming salamat din sa
+						walang sawang pag intindi mo sa akin, sa mga topak ko at pagiging isip bata, at syempre sa pag aalaga mo sa akin. lagi mong tatandaan na nandidito lang ako 
+						palagi sa tabi mo. handang tumulong at sumuporta sayo.
+					</p>
+					
+					<p class="message">
+						Sana marami pang dumating na anniversary at happy moments sa ating dalawa.. sana ay matupad din natin lahat ng plano at pangarap natin. tutuparin natin yun ng
+						sabay. walang maiiwan. hinding hindi kita pababayaan mahal, mamahalin kita ng buong puso, at iyong iyo lang ako. Let us cherish every moment na mag kasama tayo.
+						Ang drama ko na, hahahahahaha!! Happy Anniversary ulit! MAHAL NA MAHAL NA MAHAL kita... <3
+					</p>
+					<p><a data-popup-close="popup-1" href="#" class="close">Close</a></p>
+					<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+				</div>
+				</div>
+	</body>
+</html>
